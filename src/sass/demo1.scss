@@ -1,0 +1,15 @@
+.B{
+  font-size: 16px;
+  color: aquamarine;
+  text-align: left;
+  &__E{
+    font-size: 14px;
+    color: rosybrown;
+    text-align: center;
+    &--M{
+      font-size: 14px;
+      color: rosybrown;
+      text-align: right;
+    }
+  }
+}
