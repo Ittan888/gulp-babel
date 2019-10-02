@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node node_modules/gulp/bin/gulp"
   },
   "keywords": [],
   "author": "",
@@ -13,7 +14,9 @@
     "@babel/cli": "^7.5.5",
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
-    "@babel/register": "^7.5.5"
+    "@babel/preset-es2017": "^7.0.0-beta.53",
+    "@babel/register": "^7.5.5",
+    "babel-preset-latest": "^6.24.1"
   },
   "dependencies": {
     "@babel/polyfill": "^7.4.4",

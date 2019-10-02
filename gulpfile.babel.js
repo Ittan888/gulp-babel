@@ -1,4 +1,11 @@
 import { task, series, parallel } from 'gulp'
-import { generate, observe } from './gulp/tasks'
+import sass from './tasks/sass'
 
-task('default', series(parallel(generate.css, observe.files)))
+task('default',
+  series(
+    parallel(
+      sass.generate,
+      sass.observe
+    )
+  )
+)
