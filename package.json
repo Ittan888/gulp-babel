@@ -11,15 +11,15 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "^7.5.5",
-    "@babel/core": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
     "@babel/preset-es2017": "^7.0.0-beta.53",
-    "@babel/register": "^7.5.5",
+    "@babel/register": "^7.6.2",
     "babel-preset-latest": "^6.24.1"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.4.4",
+    "@babel/polyfill": "^7.6.0",
     "gulp": "^4.0.2",
     "gulp-plumber": "^1.2.1",
     "gulp-sass": "^4.0.2",
